@@ -1,0 +1,22 @@
+PS C:\workspace\git_challenge> git init
+Reinitialized existing Git repository in C:/workspace/git_challenge/.git/
+PS C:\workspace\git_challenge> git add hello_world.txt
+PS C:\workspace\git_challenge> git commit -m "hello_world.txtを追加"
+[main c7afd32] hello_world.txtを追加
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+PS C:\workspace\git_challenge> git add hello_world.txt
+PS C:\workspace\git_challenge> git commit -m "日本語訳を追記" 
+[main 3ff62c3] 日本語訳を追記
+ 1 file changed, 2 insertions(+), 1 deletion(-)
+PS C:\workspace\git_challenge> git log
+commit 3ff62c395260a4e6edee8b3742f1d5e24796f9c2 (HEAD -> main)
+Author: obi <obi1105@e-corporation.co.jp>
+Date:   Thu May 7 14:29:27 2026 +0900
+
+    日本語訳を追記
+
+commit c7afd3279dac98fb331bf064cd6379c0a3da1252
+Author: obi <obi1105@e-corporation.co.jp>
+Date:   Thu May 7 14:28:28 2026 +0900
+
+    hello_world.txtを追加
